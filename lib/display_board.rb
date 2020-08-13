@@ -1,8 +1,8 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-#board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
-board = [" "," "," "," "," "," "," "," "," "]
+board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
+#board = [" "," "," "," "," "," "," "," "," "]
 
   def display_board(argument)
     puts " #{argument[0]} | #{argument[1]} | #{argument[2]} "
