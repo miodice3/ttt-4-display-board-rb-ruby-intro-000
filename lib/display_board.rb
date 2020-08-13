@@ -3,5 +3,8 @@
 
 board = [" "," "," "," "," "," "," "," "," "]
 
-  def display_board(board)
-    puts ""
+  def display_board(argument)
+    puts " #{argument[0]} "
+  end
+
+display_board(board)
