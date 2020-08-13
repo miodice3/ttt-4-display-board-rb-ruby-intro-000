@@ -5,6 +5,7 @@ board = ["1","2","3","4","5","6","7","8","9"]
 
   def display_board(argument)
     puts " #{argument[0]} | #{argument[1]} | #{argument[2]}"
+    puts "new line"
   end
 
 display_board(board)
